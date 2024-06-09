@@ -19,17 +19,14 @@ To get a local copy of this project up and running, follow these steps:
 
 2.Navigate to the project directory:
     
-     ```sh
-     cd task-manager
+    cd task-manager
 
 3.Install dependencies:
 
-      ```sh
-     npm install
+      npm install
 4.Start the development server:
 
-    ```sh
-     npm start
+    npm start
 The application will open in your default web browser. If it doesn't, open http://localhost:3000 to view it in your browser.
 
 
