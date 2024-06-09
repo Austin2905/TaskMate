@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7fa; /* Light cyan background color */
+  background-image: url('D:\Task\task-manager\download.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  max-width: 800px;
+  margin: 20px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  background-color: #ffffff; /* White background for the app container */
+}
+
+h1 {
+  text-align: center; /* Center the title */
+}
+
+.task-list {
+  margin-bottom: 20px;
+}
+
+.task-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f0f4c3; /* Light lime background for task items */
+  margin-bottom: 10px;
+  border-radius: 4px;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.task-item:hover {
+  background: #dce775; /* Slightly darker lime background on hover */
+}
+
+.task-item h3 {
+  margin: 0;
+  color: #37474f; /* Darker text color for better contrast */
+}
+
+.task-item button {
+  background: #f44336; /* Red background for delete button */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.task-item button:hover {
+  background: #d32f2f; /* Darker red on hover */
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-form input,
+.task-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #e0f7fa; /* Light cyan background for inputs */
+}
+
+.task-form button {
+  padding: 10px;
+  background: #0277bd; /* Blue background for add button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.task-form button:hover {
+  background: #01579b; /* Darker blue on hover */
+}
+
+.task-detail {
+  margin-top: 20px;
+}
+
+.task-detail h2 {
+  margin-top: 0;
+  color: #37474f; /* Darker text color for better contrast */
+}
+
+.task-detail button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #388e3c; /* Green background for complete button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.task-detail button:hover {
+  background: #2e7d32; /* Darker green on hover */
+}
