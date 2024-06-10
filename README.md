@@ -32,3 +32,5 @@ The application will open in your default web browser. If it doesn't, open http:
 
 Challenges:
   version control
+future scope:
+integrating Mongodb or any other database
